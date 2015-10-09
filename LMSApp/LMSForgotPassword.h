@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LMSForgotPassword.h
 //  LMSApp
 //
 //  Created by praveen on 06/10/15.
@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LMSCommon.h"
+#import "LMSConstants.h"
 #import "Parssing.h"
-@interface ViewController : UIViewController<ParssingDelegate>
 
+@interface LMSForgotPassword : UIViewController<ParssingDelegate>{
+
+    
+}
 
 @end
-
